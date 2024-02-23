@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
 
+@media screen and (max-width: 600px) {
+    .choice-container {
+        min-width: 40rem;
+    }
+}
+
 body {
     background-color: pink;
     background-image: url('CSSTAY.png') ;

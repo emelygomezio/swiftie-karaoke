@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
     .choice-container {
         min-width: 40rem;
     }

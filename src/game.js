@@ -83,7 +83,7 @@ let questions = [
   },
   {
     question: "You wear the same jewels that I gave you, as you...",
-    choice1: "marry me 🚑",
+    choice1: "marry me 💍",
     choice2: "betray me 🗡️",
     choice3: "laugh at me 😆",
     choice4: "bury me ⚰️",

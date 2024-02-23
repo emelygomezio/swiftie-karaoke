@@ -138,32 +138,6 @@ h2 {
     background: linear-gradient(20deg, rgb(238, 60, 60) 0%, rgb(246, 20, 20) 100%)
 }
 
-.results-btn{
-    font-size: 2rem;
-    padding: 2rem 0 ;
-    text-align: center;
-    margin-left: 28rem;
-    color: white;
-    background: linear-gradient(90deg, #7F00FF 0%, #CC99FF 100%);
-    border-radius: 28px;
-    padding-bottom: 2rem;
-    width: 50rem;  
-    text-decoration: none;
-}
-
-.results-btn:hover {
-    cursor: pointer;
-    box-shadow: 0 0.4rem 1.4rem 0 #9F28B2;
-    transition: transform 150ms;
-    transform: scale (1.03);
-}
-
-.results-btn[disabled]:hover {
-    cursor: not-allowed;
-    box-shadow:none;
-    transform: none;
-}
-
 /* Elements from style.css*/
 
 * {

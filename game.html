@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=devide-width, initial-scale=1.0">
+    <title>Taylor's Karaoke</title>
+    <link rel="stylesheet" href="./styles/game.css">
+  </head>
+  <body>
+    <h1 class="title">
+         Welcome To Swiftie Karaoke! 🎤
+    </h1>
+    <iframe src="https://giphy.com/embed/9PiWyzEZ23BoDLdN7Z" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/RFootball-taylor-swift-pacheco-ts-pop-9PiWyzEZ23BoDLdN7Z">via GIPHY</a></p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <div id="game" class="justify-center flex-column">
+            <div class="hud-question">
+                <p id="progressText" class="hud-label">
+                    Question
+                </p>
+                <div id="progressBar">
+                    <div id="progressBarFull"></div>
+                </div>
+            <h2 id="question" What is the answer to this question?>
+            </h2>
+            <div class="choices-and-score-container">
+                <div class="hud-main"></div>
+                <div class="main-choices">
+                     <div class="choice-container">
+                        <p class="choice-selection" data-number="1"> Choice 1</p>
+                    </div>
+                     <div class="choice-container">
+                         <p class="choice-selection" data-number="2"> Choice 2 </p>
+                    </div>
+                    <div class="choice-container">
+                        <p class="choice-selection" data-number="3"> Choice 3 </p>
+                    </div>
+                    <div class="choice-container">
+                        <p class="choice-selection" data-number="4"> Choice 4 </p>
+            </div>
+            </div>
+            <div id="hud">
+                <div class="score-and-number">
+                    <p class="hud-score-text">
+                        Score
+                    </p>
+                    <h1 class="hud-score-number" id="score">
+                        0
+                    </h1>
+                    </div>
+                </div>
+            </div>
+            <a href="/swiftie-karaoke/src/finalscore.html" class="results-btn">View Results</a>
+        </div>
+    </div>
+    <script src="/swiftie-karaoke/src/game.js"></script>
+  </body>
+</html>
